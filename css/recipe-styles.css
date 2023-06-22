@@ -1,0 +1,77 @@
+body {
+  margin: 4rem auto;
+  padding: 0 1rem;
+  background-color: blanchedalmond;
+  max-width: 600px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+}
+
+h1,
+h2 {
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+  margin: 4rem auto;
+  border-radius: 15px;
+  display: block;
+}
+
+h2 {
+  margin-top: 3rem;
+  color: #111;
+}
+
+p {
+  padding-left: 0.5rem;
+}
+
+p:nth-child(5) {
+  margin-top: -10px;
+}
+
+ul,
+ol {
+  padding-left: 2.2rem;
+}
+
+li {
+  margin-bottom: 0.8rem;
+}
+
+a {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  text-decoration: none;
+  background-color: steelblue;
+  color: blanchedalmond;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: steelblue;
+  background-color: blanchedalmond;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
