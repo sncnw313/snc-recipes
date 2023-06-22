@@ -1,0 +1,69 @@
+body {
+  margin: 0 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/noodle-cooking.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: cursive;
+  margin: 3rem 0 4rem;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  max-width: 260px;
+  margin: auto;
+}
+
+.emoji {
+  margin-right: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  padding-left: 0.5rem;
+  transition: 0.2s;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  ul {
+    max-width: 210px;
+  }
+  li {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  ul {
+    max-width: 180px;
+  }
+  li {
+    font-size: 1rem;
+  }
+}
